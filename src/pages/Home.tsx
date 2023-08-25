@@ -38,10 +38,11 @@ export default function Home() {
   const [symbol, setSymbol] = useState<string | null>(DEFAULT_SYMBOL);
   const [stockHighlightData, setStockHighlightData] =
     useState<StockHighlightData | null>(null);
-  const [stockProfileData, setStockProfileData] =
-    useState<StockHighlightData | null>(null);
-  const [corporateActions, setCorporateActions] =
-    useState<Array<CoperateAction>>(null);
+  // const [stockProfileData, setStockProfileData] =
+  //   useState<StockHighlightData | null>(null);
+  const [corporateActions, setCorporateActions] = useState<
+    Array<CoperateAction>
+  >([]);
   const [companyProfile, setCompanyProfile] = useState<CompanyProfile | null>(
     null
   );
@@ -57,7 +58,7 @@ export default function Home() {
     Promise.all([
       fetchStockInfo(symbol || DEFAULT_SYMBOL, "company"),
       fetchStockInfo(symbol || DEFAULT_SYMBOL, "highlight-data"),
-      fetchStockInfo(symbol || DEFAULT_SYMBOL, "profile"),
+      // fetchStockInfo(symbol || DEFAULT_SYMBOL, "profile"),
       fetchStockInfo(symbol || DEFAULT_SYMBOL, "corporate-action"),
       fetchStockInfo(symbol || DEFAULT_SYMBOL, "info"),
       fetchSectorIndex(),
@@ -66,7 +67,7 @@ export default function Home() {
         ([
           companyData,
           highlightData,
-          profileData,
+          // profileData,
           corporateActionData,
           stockInfoData,
           sectorIndexData,
@@ -77,9 +78,9 @@ export default function Home() {
           if (highlightData) {
             setStockHighlightData(highlightData);
           }
-          if (profileData) {
-            setStockProfileData(profileData);
-          }
+          // if (profileData) {
+          //   setStockProfileData(profileData);
+          // }
           if (corporateActionData) {
             setCorporateActions(corporateActionData);
           }
@@ -124,7 +125,7 @@ export default function Home() {
                 <Autocomplete
                   disablePortal
                   id="symbols-box"
-                  onChange={(event, newValue) => {
+                  onChange={(_event, newValue) => {
                     setSymbol(newValue);
                   }}
                   options={symbols}

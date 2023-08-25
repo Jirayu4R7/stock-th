@@ -37,7 +37,7 @@ export default function StockInfoDividendCard({
           /> */}
           <GridSection
             label="อัตราส่วนเงินปันผลตอบแทนย้อนหลัง 12 เดือน (%)"
-            value={data.dividendYield12M}
+            value={data?.dividendYield12M ?? "-"}
           />
           <GridSection
             label={

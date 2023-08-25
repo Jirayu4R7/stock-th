@@ -3,7 +3,7 @@ import * as React from "react";
 import clsxm from "@/lib/clsxm";
 import { StockProfile } from "@/interface/StockProfile";
 import StockProfileCard from "@/components/StockProfileCard";
-import { Grid, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 
 type StockProfileListProps = {
   stockList: Array<StockProfile>;

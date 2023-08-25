@@ -3,7 +3,6 @@ import * as React from "react";
 import clsxm from "@/lib/clsxm";
 import { Card, CardContent, Divider, Grid, Typography } from "@mui/material";
 import { StockHighlightData } from "@/interface/StockHighlightData";
-import { displayNumber } from "@/lib/currency";
 
 type StockInfoFinancialsProps = {
   data: StockHighlightData | null;
@@ -25,17 +24,19 @@ export default function StockInfoFinancialsCard({
               </Typography>
             </Grid>
           </Grid>
-          <GridSection label="P/E" value={data.peRatio} />
-          <GridSection label="P/BV" value={data.pbRatio} />
+          <GridSection label="P/E" value={data?.peRatio ?? "-"} />
+          <GridSection label="P/BV" value={data?.pbRatio ?? "-"} />
           <GridSection
-            label="มูลค่าตามราคาตลาด (ล้าน)"
-            value={`${displayNumber(data.marketCap / 1000000)}`}
+            label="มูลค่าตามราคาตลาด (พันล้าน)"
+            value={`${Intl.NumberFormat("th-TH").format(
+              (data?.marketCap ?? 0) / 1000000000
+            )}`}
           />
           <GridSection
             label="สัดส่วนหุ้นของผู้ถือหุ้นรายย่อย"
-            value={data.percentFreeFloat.toFixed(2)}
+            value={data?.percentFreeFloat.toFixed(2) ?? "-"}
           />
-          {/* <GridSection label="EPS" value={data.marketCap} /> */}
+          {/* <GridSection label="EPS" value={data?.marketCap} /> */}
         </Grid>
       </CardContent>
     </Card>

@@ -35,27 +35,27 @@ export default function CompanyCard({
             >
               <Avatar
                 variant="rounded"
-                alt={profile.name}
-                src={profile.logoUrl}
+                alt={profile?.name}
+                src={profile?.logoUrl}
                 sx={{ width: 140, height: 140 }}
               />
               <Typography mb={0.5} fontSize={18}>
-                {profile.name}
+                {profile?.name}
               </Typography>
             </Grid>
             <Typography mb={0.5} fontSize={18}>
               ข้อมูลทั่วไป
             </Typography>
           </Grid>
-          <Typography>{profile.businessType}</Typography>
+          <Typography>{profile?.businessType}</Typography>
           <Box mb={2}></Box>
 
           {[
-            { label: "ตลาดหลักทรัพย์", value: profile.market },
-            { label: "กลุ่มอุตสาหกรรม", value: profile.sectorName },
-            { label: "อุตสาหกรรม", value: profile.industryName },
+            { label: "ตลาดหลักทรัพย์", value: profile?.market },
+            { label: "กลุ่มอุตสาหกรรม", value: profile?.sectorName },
+            { label: "อุตสาหกรรม", value: profile?.industryName },
           ].map(({ label, value }) => (
-            <GridSection key={label} label={label} value={value} />
+            <GridSection key={label} label={label} value={value ?? ""} />
           ))}
 
           {/* <Grid container spacing={2} direction="row">
@@ -91,8 +91,8 @@ export default function CompanyCard({
             </Grid>
             <Grid item xs={6}>
               <Typography align="right">
-                <Link href={profile.url} color="inherit" align="right">
-                  {profile.url}
+                <Link href={profile?.url} color="inherit" align="right">
+                  {profile?.url}
                 </Link>
               </Typography>
             </Grid>

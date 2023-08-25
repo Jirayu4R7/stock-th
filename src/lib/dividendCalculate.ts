@@ -24,15 +24,16 @@ export function findLatestXDAction(
   if (filteredData?.length === 0) {
     latestXDObject = null;
   } else {
-    latestXDObject = filteredData?.reduce((max_dt, dt) => {
-      const currentDate = new Date(dt.xdate);
-      const maxDate = new Date(max_dt.xdate);
-      return currentDate > maxDate ? dt : max_dt;
-    });
+    latestXDObject =
+      filteredData?.reduce((max_dt, dt) => {
+        const currentDate = new Date(dt.xdate);
+        const maxDate = new Date(max_dt.xdate);
+        return currentDate > maxDate ? dt : max_dt;
+      }) ?? null;
   }
 
   if (latestXDObject !== null) {
-    const isPaymented = dayjs().isAfter(dayjs(latestXDObject.paymentDate));
+    const isPaymented = dayjs().isAfter(dayjs(latestXDObject?.paymentDate));
     latestXDObject.isPaymented = isPaymented;
   }
 
