@@ -1,6 +1,6 @@
-import * as dayjs from "dayjs";
-import buddhistEra from "dayjs/plugin/buddhistEra";
-import duration from "dayjs/plugin/duration";
+import { default as dayjs } from "dayjs";
+import buddhistEra from "dayjs/plugin/buddhistEra.js";
+import duration from "dayjs/plugin/duration.js";
 import "dayjs/locale/th";
 
 dayjs.extend(duration);
