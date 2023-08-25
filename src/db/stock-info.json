@@ -1,0 +1,55 @@
+{
+  "symbol": "LH",
+  "sign": "",
+  "prior": 8.35,
+  "last": 8.4,
+  "open": 8.4,
+  "high": 8.45,
+  "low": 8.35,
+  "average": 8.41618,
+  "floor": 5.85,
+  "ceiling": 10.8,
+  "change": 0.05,
+  "percentChange": 0.598802,
+  "totalVolume": 26054294,
+  "totalValue": 219277797.25,
+  "trVolume": null,
+  "trValue": null,
+  "aomVolume": 26052600,
+  "aomValue": 219263490,
+  "bids": [
+    {
+      "volume": 7780500,
+      "price": "8.40"
+    }
+  ],
+  "offers": [
+    {
+      "volume": 6997100,
+      "price": "8.45"
+    }
+  ],
+  "marketStatus": "Open2",
+  "marketDateTime": "2023-08-22T15:13:39.478149688+07:00",
+  "securityType": "S",
+  "tickSize": 0.05,
+  "nameEN": "LAND AND HOUSES PUBLIC COMPANY LIMITED",
+  "nameTH": "บริษัทแลนด์แอนด์เฮ้าส์ จำกัด (มหาชน)",
+  "marketName": "SET",
+  "industryName": "PROPCON",
+  "sectorName": "PROP",
+  "isNPG": false,
+  "high52Weeks": 10.1,
+  "low52Weeks": 8.2,
+  "par": 1,
+  "marketCap": 99780105019.6,
+  "inav": null,
+  "exercisePrice": null,
+  "exerciseRatio": "1 : 1",
+  "maturityDate": null,
+  "lastTradingDate": null,
+  "underlying": "",
+  "pbRatio": 2.01,
+  "nvdrNetVolume": -5985814,
+  "dividendYield": 7.190000057220459
+}

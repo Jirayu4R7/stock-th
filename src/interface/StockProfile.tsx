@@ -1,0 +1,37 @@
+export interface StockProfile {
+  symbol: string;
+  name: string;
+  market: string;
+  industry: string;
+  industryName: string;
+  sector: string;
+  sectorName: string;
+  securityType: string;
+  securityTypeName: string;
+  status: string;
+  listedDate: Date;
+  firstTradeDate: Date;
+  lastTradeDate: null;
+  maturityDate: null;
+  fiscalYearEnd: string;
+  fiscalYearEndDisplay: string;
+  accountForm: string;
+  par: number;
+  currency: string;
+  listedShare: number;
+  ipo: number;
+  isinLocal: string;
+  isinForeign: string;
+  isinNVDR: string;
+  percentFreeFloat: number;
+  foreignLimitAsOf: Date;
+  percentForeignRoom: number;
+  percentForeignLimit: number;
+  foreignAvailable: number;
+  underlying: string;
+  exercisePrice: null;
+  exerciseRatio: string;
+  reservedShare: number;
+  convertedShare: null;
+  lastExerciseDate: null;
+}

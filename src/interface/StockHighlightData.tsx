@@ -1,0 +1,30 @@
+export interface StockHighlightData {
+  symbol: string;
+  asOfDate: string;
+  marketCap: number;
+  peRatio: number;
+  pbRatio: number;
+  dividendYield: number;
+  beta: number;
+  ytdPercentChange: number;
+  xdDate: string;
+  dividend: number;
+  dividendRatio: number | null | undefined;
+  freeFloatAsOfDate: string;
+  percentFreeFloat: number;
+  yearHighPrice: number;
+  yearLowPrice: number;
+  listedShare: number;
+  par: number;
+  currency: string;
+  nvdrBuyVolume: number;
+  nvdrSellVolume: number;
+  nvdrBuyValue: number;
+  nvdrSellValue: number;
+  outstandingDate: number | null | undefined;
+  outstandingShare: number | null | undefined;
+  dividendYield12M: number;
+  turnoverRatio: number;
+  nvdrNetValue: number;
+  nvdrNetVolume: number;
+}
