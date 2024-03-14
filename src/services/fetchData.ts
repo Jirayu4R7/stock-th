@@ -1,3 +1,5 @@
+"use server";
+
 import stockHighlightDataDummy from "@/db/stock-highlight-data.json";
 import stockProfileDataDummy from "@/db/stock-profile.json";
 import stockInfoDataDummy from "@/db/stock-info.json";
@@ -6,32 +8,29 @@ import corporateActionsDataDummy from "@/db/corporate-actions.json";
 import sectorIndexDataDummy from "@/db/sector-info.json";
 
 import stockList from "@/db/stock-list.json";
+import { StockSymbol } from "@/interface/StockSymbol";
 
 const HEADER_REQUEST = {
-  "sec-ch-ua":
-    '"Not/A)Brand";v="99", "Microsoft Edge";v="115", "Chromium";v="115"',
   Accept: "application/json, text/plain, */*",
   Referer: "https://www.set.or.th",
-  "sec-ch-ua-mobile": "?0",
-  "User-Agent":
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203",
-  "sec-ch-ua-platform": '"macOS"',
 };
 
-const MODE: string = import.meta.env.VITE_MODE;
-const HOST_API_URL: string = import.meta.env.VITE_HOST_API_URL;
+const MODE: string = process.env.MODE || "DEV";
+const HOST_API_URL: string =
+  process.env.HOST_API_URL || "http://localhost:3000";
 
-export const fetchStockSymbolList = () => {
-  const symbols: string[] = stockList.securitySymbols
+export const fetchStockSymbolList = async () => {
+  const symbols: StockSymbol[] = stockList.securitySymbols
     .filter((value) => value.securityType === "S")
-    .map((item) => item.symbol);
+    .map((item) => item);
   return symbols;
 };
 
-const fetchData = async (url: string) => {
+const fetchData = async (url: string, cache: RequestCache) => {
   try {
     const response = await fetch(url, {
       headers: HEADER_REQUEST,
+      cache: cache,
     });
 
     if (!response.ok) {
@@ -42,18 +41,29 @@ const fetchData = async (url: string) => {
     const responseData = await response.json();
     return responseData;
   } catch (error) {
+    // console.log(error);
     throw new Error("Error fetching data: " + error?.toString());
   }
 };
 
+type path_type =
+  | "highlight-data"
+  | "profile"
+  | "info"
+  | "corporate-action"
+  | "company";
 export const fetchStockInfo = async (
   symbol: string = "AOT",
-  path: string = "profile"
+  path: path_type = "profile"
 ) => {
   switch (MODE) {
     case "PROD": {
+      let cache: RequestCache = "force-cache";
+      if (path === "info") {
+        cache = "no-cache";
+      }
       const API_URL = `${HOST_API_URL}/set/info?symbol=${symbol}&path=${path}`;
-      return fetchData(API_URL);
+      return fetchData(API_URL, cache);
     }
     default: {
       let data = null;

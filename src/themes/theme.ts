@@ -1,3 +1,4 @@
+"use client";
 import { ThemeOptions, createTheme } from "@mui/material/styles";
 import { TypographyOptions } from "@mui/material/styles/createTypography";
 
@@ -36,10 +37,23 @@ const theme = createTheme({
   typography: {
     positive: {
       color: "#00CA45",
+      fontFamily: [
+        "Noto Sans Thai",
+        "Poppins",
+        "Bai Jamjuree",
+        "sans-serif",
+      ].join(","),
     },
     negative: {
       color: "#f95d5d",
+      fontFamily: [
+        "Noto Sans Thai",
+        "Poppins",
+        "Bai Jamjuree",
+        "sans-serif",
+      ].join(","),
     },
+
     fontFamily: [
       "Noto Sans Thai",
       "Poppins",

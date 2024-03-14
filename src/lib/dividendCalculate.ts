@@ -1,18 +1,18 @@
 import { CoperateAction } from "@/interface/CoperateAction";
 import dayjs from "dayjs";
-export function countXDObjectsWithPreviousYearPayment(data: any[]): number {
-  const currentYear = new Date().getFullYear();
-  let count = 0;
+// export function countXDObjectsWithPreviousYearPayment(data: any[]): number {
+//   const currentYear = new Date().getFullYear();
+//   let count = 0;
 
-  for (const item of data) {
-    const paymentDateYear = new Date(item.paymentDate).getFullYear();
-    if (item.type === "XD" && paymentDateYear === currentYear - 1) {
-      count++;
-    }
-  }
+//   for (const item of data) {
+//     const paymentDateYear = new Date(item.paymentDate).getFullYear();
+//     if (item.type === "XD" && paymentDateYear === currentYear - 1) {
+//       count++;
+//     }
+//   }
 
-  return count;
-}
+//   return count;
+// }
 
 export function findLatestXDAction(
   data: CoperateAction[] | null
@@ -40,18 +40,18 @@ export function findLatestXDAction(
   return latestXDObject;
 }
 
-export function findPaymentDate(data: any[]): Date | null {
-  let latestObject = null;
+// export function findPaymentDate(data: any[]): Date | null {
+//   let latestObject = null;
 
-  for (const item of data) {
-    if (
-      !latestObject ||
-      (new Date(item.xdate) > new Date(latestObject.xdate) &&
-        item.type === "XD")
-    ) {
-      latestObject = item;
-    }
-  }
+//   for (const item of data) {
+//     if (
+//       !latestObject ||
+//       (new Date(item.xdate) > new Date(latestObject.xdate) &&
+//         item.type === "XD")
+//     ) {
+//       latestObject = item;
+//     }
+//   }
 
-  return latestObject.paymentDate;
-}
+//   return latestObject.paymentDate;
+// }
