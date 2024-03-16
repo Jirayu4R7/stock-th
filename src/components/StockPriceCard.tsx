@@ -2,7 +2,6 @@ import clsxm from "@/lib/clsxm";
 // import { StockInfo } from "@/interface/StockInfo";
 import { Card, CardContent, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
-import "./style.css";
 import { fetchStockInfo } from "@/services/fetchData";
 
 type StockPriceCardProps = {
