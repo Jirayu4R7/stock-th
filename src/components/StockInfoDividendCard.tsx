@@ -3,22 +3,32 @@ import { dateFormatCustom } from "@/utils/dateUtil";
 import clsxm from "@/lib/clsxm";
 import { Card, CardContent, Divider, Grid, Typography } from "@mui/material";
 import { StockHighlightData } from "@/interface/StockHighlightData";
-// import corporateActions from "@/db/corporate-actions.json";
+import { fetchStockInfo } from "@/services/fetchData";
 
 import { findLatestXDAction } from "@/lib/dividendCalculate";
 import { CoperateAction } from "@/interface/CoperateAction";
 
 type StockInfoDividendCardProps = {
-  data: StockHighlightData | null;
-  corporateActions: Array<CoperateAction> | null;
+  symbol: string;
+  // data: StockHighlightData | null;
+  // corporateActions: Array<CoperateAction> | null;
 } & React.ComponentPropsWithoutRef<"div">;
 
-export default function StockInfoDividendCard({
+export default async function StockInfoDividendCard({
   className,
-  data,
-  corporateActions,
+  symbol,
+  // data,
+  // corporateActions,
   ...rest
 }: StockInfoDividendCardProps) {
+  const stockHighlightData: StockHighlightData = await fetchStockInfo(
+    symbol,
+    "highlight-data"
+  );
+  const corporateActions: Array<CoperateAction> = await fetchStockInfo(
+    symbol,
+    "corporate-action"
+  );
   const latestXD = findLatestXDAction(corporateActions);
   return (
     <Card className={clsxm(["", className])} {...rest}>
@@ -37,7 +47,7 @@ export default function StockInfoDividendCard({
           /> */}
           <GridSection
             label="อัตราส่วนเงินปันผลตอบแทนย้อนหลัง 12 เดือน (%)"
-            value={data?.dividendYield12M ?? "-"}
+            value={stockHighlightData?.dividendYield12M ?? "-"}
           />
           <GridSection
             label={

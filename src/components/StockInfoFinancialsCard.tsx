@@ -1,18 +1,24 @@
 import * as React from "react";
 
 import clsxm from "@/lib/clsxm";
+import { fetchStockInfo } from "@/services/fetchData";
 import { Card, CardContent, Divider, Grid, Typography } from "@mui/material";
 import { StockHighlightData } from "@/interface/StockHighlightData";
 
 type StockInfoFinancialsProps = {
-  data: StockHighlightData | null;
+  // data: StockHighlightData | null;
+  symbol: string;
 } & React.ComponentPropsWithoutRef<"div">;
 
-export default function StockInfoFinancialsCard({
+export default async function StockInfoFinancialsCard({
   className,
-  data,
+  symbol,
   ...rest
 }: StockInfoFinancialsProps) {
+  const data: StockHighlightData = await fetchStockInfo(
+    symbol,
+    "highlight-data"
+  );
   return (
     <Card className={clsxm(["", className])} {...rest}>
       <CardContent>

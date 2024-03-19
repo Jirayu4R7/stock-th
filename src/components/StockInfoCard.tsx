@@ -2,20 +2,22 @@ import * as React from "react";
 import { dateDisplay } from "@/utils/dateUtil";
 
 import clsxm from "@/lib/clsxm";
+import { fetchStockInfo } from "@/services/fetchData";
 import { StockInfo } from "@/interface/StockInfo";
 import { Card, CardContent, Divider, Stack, Typography } from "@mui/material";
 
 type StockInfoCardProps = {
-  info: StockInfo | null;
+  symbol: string;
   showTime?: boolean;
 } & React.ComponentPropsWithoutRef<"div">;
 
-export default function StockInfoCard({
+export default async function StockInfoCard({
   className,
-  info,
+  symbol,
   showTime = true,
   ...rest
 }: StockInfoCardProps) {
+  const info: StockInfo = await fetchStockInfo(symbol, "info");
   return info === null ? (
     <Typography>ไม่พบข้อมูล</Typography>
   ) : (

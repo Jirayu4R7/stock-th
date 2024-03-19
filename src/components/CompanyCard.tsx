@@ -2,6 +2,7 @@ import * as React from "react";
 
 import clsxm from "@/lib/clsxm";
 import { CompanyProfile } from "@/interface/CompanyProfile";
+import { fetchStockInfo } from "@/services/fetchData";
 import {
   Avatar,
   Box,
@@ -14,14 +15,17 @@ import {
 } from "@mui/material";
 
 type CompanyCardProps = {
-  profile: CompanyProfile | null;
+  symbol: string;
+  // profile: CompanyProfile | null;
 } & React.ComponentPropsWithoutRef<"div">;
 
-export default function CompanyCard({
+export default async function CompanyCard({
   className,
-  profile,
+  // profile,
+  symbol,
   ...rest
 }: CompanyCardProps) {
+  const profile: CompanyProfile = await fetchStockInfo(symbol, "company");
   return (
     <div className={clsxm(["", className])} {...rest}>
       <Card>
