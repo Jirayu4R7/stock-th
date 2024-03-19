@@ -5,6 +5,7 @@ import clsxm from "@/lib/clsxm";
 import { fetchStockInfo } from "@/services/fetchData";
 import { StockInfo } from "@/interface/StockInfo";
 import { Card, CardContent, Divider, Stack, Typography } from "@mui/material";
+import FavButton from "@/components/FavButton";
 
 type StockInfoCardProps = {
   symbol: string;
@@ -35,9 +36,16 @@ export default async function StockInfoCard({
             justifyContent="space-between"
           >
             <Stack direction={"column"}>
-              <Typography fontWeight={700} fontSize={18}>
-                {info.symbol}
-              </Typography>
+              <Stack
+                direction={"row"}
+                justifyContent="flex-start"
+                alignItems="flex-end"
+              >
+                <Typography fontWeight={700} fontSize={18}>
+                  {info.symbol}
+                </Typography>
+                <FavButton symbol={info.symbol || undefined} />
+              </Stack>
               <Typography fontSize={16} fontWeight={300}>
                 {info.nameTH}
               </Typography>

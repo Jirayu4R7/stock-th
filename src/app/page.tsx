@@ -3,7 +3,9 @@ import InputSymbol from "@/components/InputSymbol";
 import StockInfoCard from "@/components/StockInfoCard";
 import StockInfoDividendCard from "@/components/StockInfoDividendCard";
 import StockInfoFinancialsCard from "@/components/StockInfoFinancialsCard";
-import { Grid, Skeleton } from "@mui/material";
+import { ShowChart } from "@mui/icons-material";
+import { Button, Grid, Skeleton } from "@mui/material";
+import Link from "next/link";
 import { Suspense } from "react";
 interface HomePageProps {
   searchParams?: {
@@ -18,6 +20,13 @@ export default async function Page({ searchParams }: HomePageProps) {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <InputSymbol />
+        </Grid>
+        <Grid item xs={12}>
+          <Link href={"/watchlist"}>
+            <Button fullWidth variant="contained" endIcon={<ShowChart />}>
+              Watch List
+            </Button>
+          </Link>
         </Grid>
 
         {symbol && (
