@@ -3,6 +3,7 @@ import InputSymbol from "@/components/InputSymbol";
 import StockInfoCard from "@/components/StockInfoCard";
 import StockInfoDividendCard from "@/components/StockInfoDividendCard";
 import StockInfoFinancialsCard from "@/components/StockInfoFinancialsCard";
+import StockPriceChartCard from "@/components/StockPriceChartCard";
 import { ShowChart } from "@mui/icons-material";
 import { Button, Grid, Skeleton } from "@mui/material";
 import Link from "next/link";
@@ -12,6 +13,7 @@ interface HomePageProps {
     symbol?: string;
   };
 }
+
 export default async function Page({ searchParams }: HomePageProps) {
   const symbol = searchParams?.symbol;
 
@@ -38,6 +40,16 @@ export default async function Page({ searchParams }: HomePageProps) {
                 }
               >
                 <StockInfoCard symbol={symbol} />
+              </Suspense>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Suspense
+                fallback={
+                  <Skeleton variant="rounded" width={"100%"} height={"156px"} />
+                }
+              >
+                <StockPriceChartCard symbol={symbol} />
               </Suspense>
             </Grid>
             <Grid item xs={12} md={6}>

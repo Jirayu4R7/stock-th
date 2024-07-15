@@ -51,7 +51,8 @@ type path_type =
   | "profile"
   | "info"
   | "corporate-action"
-  | "company";
+  | "company"
+  | "price";
 export const fetchStockInfo = async (
   symbol: string = "AOT",
   path: path_type = "profile"
