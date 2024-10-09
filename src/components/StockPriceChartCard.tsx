@@ -10,8 +10,10 @@ import {
   MenuItem,
   Select,
   CardContent,
-  CircularProgress,
+  Button,
+  Skeleton,
 } from "@mui/material";
+import RefreshIcon from "@mui/icons-material/Refresh";
 import { useEffect, useState } from "react";
 import { Stack } from "@mui/system";
 
@@ -36,10 +38,15 @@ export default function StockPriceChartCard({
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
-      getStockPrice(symbol, period).then((info) => {
+      try {
+        const info = await getStockPrice(symbol, period);
         setInfo(info);
+      } catch (error) {
+        console.error("Failed to fetch stock price:", error);
+        setInfo(null);
+      } finally {
         setIsLoading(false);
-      });
+      }
     };
     fetchData();
   }, [symbol, period]);
@@ -58,7 +65,7 @@ export default function StockPriceChartCard({
             alignItems="center"
             sx={{ height: "100%" }}
           >
-            <CircularProgress />
+            <Skeleton variant="rounded" width={"100%"} height={"156px"} />
           </Stack>
         </CardContent>
       </Card>
@@ -68,7 +75,24 @@ export default function StockPriceChartCard({
   return info === null ? (
     <Card>
       <CardContent>
-        <Typography>ไม่พบข้อมูล</Typography>
+        <Stack
+          justifyContent="center"
+          alignItems="center"
+          sx={{ height: "100%" }}
+        >
+          <Typography>ไม่พบข้อมูล</Typography>
+          <Button
+            startIcon={<RefreshIcon />}
+            variant="contained"
+            color="primary"
+            onClick={() => {
+              setPeriod("1D");
+            }}
+            sx={{ marginTop: 2 }}
+          >
+            ลองอีกครั้ง
+          </Button>
+        </Stack>
       </CardContent>
     </Card>
   ) : (
