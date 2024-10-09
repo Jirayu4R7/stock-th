@@ -1,0 +1,2643 @@
+{
+    "prior": 64.25,
+    "intermissions": [
+        {
+            "begin": "2024-10-09T12:30:00",
+            "end": "2024-10-09T13:45:00"
+        }
+    ],
+    "quotations": [
+        {
+            "datetime": "2024-10-09T09:45:00+07:00",
+            "localDatetime": "2024-10-09T09:45:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:46:00+07:00",
+            "localDatetime": "2024-10-09T09:46:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:47:00+07:00",
+            "localDatetime": "2024-10-09T09:47:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:48:00+07:00",
+            "localDatetime": "2024-10-09T09:48:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:49:00+07:00",
+            "localDatetime": "2024-10-09T09:49:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:50:00+07:00",
+            "localDatetime": "2024-10-09T09:50:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:51:00+07:00",
+            "localDatetime": "2024-10-09T09:51:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:52:00+07:00",
+            "localDatetime": "2024-10-09T09:52:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:53:00+07:00",
+            "localDatetime": "2024-10-09T09:53:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:54:00+07:00",
+            "localDatetime": "2024-10-09T09:54:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:55:00+07:00",
+            "localDatetime": "2024-10-09T09:55:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:56:00+07:00",
+            "localDatetime": "2024-10-09T09:56:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:57:00+07:00",
+            "localDatetime": "2024-10-09T09:57:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T09:58:00+07:00",
+            "localDatetime": "2024-10-09T09:58:00",
+            "price": 64.5,
+            "volume": 265100,
+            "value": 17032850
+        },
+        {
+            "datetime": "2024-10-09T09:59:00+07:00",
+            "localDatetime": "2024-10-09T09:59:00",
+            "price": 64.25,
+            "volume": 4200,
+            "value": 269850
+        },
+        {
+            "datetime": "2024-10-09T10:00:00+07:00",
+            "localDatetime": "2024-10-09T10:00:00",
+            "price": 64.25,
+            "volume": 100,
+            "value": 6425
+        },
+        {
+            "datetime": "2024-10-09T10:01:00+07:00",
+            "localDatetime": "2024-10-09T10:01:00",
+            "price": 64.25,
+            "volume": 36000,
+            "value": 2313000
+        },
+        {
+            "datetime": "2024-10-09T10:02:00+07:00",
+            "localDatetime": "2024-10-09T10:02:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:03:00+07:00",
+            "localDatetime": "2024-10-09T10:03:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:04:00+07:00",
+            "localDatetime": "2024-10-09T10:04:00",
+            "price": 64.25,
+            "volume": 127600,
+            "value": 8198300
+        },
+        {
+            "datetime": "2024-10-09T10:05:00+07:00",
+            "localDatetime": "2024-10-09T10:05:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:06:00+07:00",
+            "localDatetime": "2024-10-09T10:06:00",
+            "price": 64,
+            "volume": 359700,
+            "value": 23109450
+        },
+        {
+            "datetime": "2024-10-09T10:07:00+07:00",
+            "localDatetime": "2024-10-09T10:07:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:08:00+07:00",
+            "localDatetime": "2024-10-09T10:08:00",
+            "price": 64.25,
+            "volume": 15800,
+            "value": 1015150
+        },
+        {
+            "datetime": "2024-10-09T10:09:00+07:00",
+            "localDatetime": "2024-10-09T10:09:00",
+            "price": 64,
+            "volume": 5000,
+            "value": 320000
+        },
+        {
+            "datetime": "2024-10-09T10:10:00+07:00",
+            "localDatetime": "2024-10-09T10:10:00",
+            "price": 64,
+            "volume": 1500,
+            "value": 96125
+        },
+        {
+            "datetime": "2024-10-09T10:11:00+07:00",
+            "localDatetime": "2024-10-09T10:11:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:12:00+07:00",
+            "localDatetime": "2024-10-09T10:12:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:13:00+07:00",
+            "localDatetime": "2024-10-09T10:13:00",
+            "price": 64,
+            "volume": 800,
+            "value": 51275
+        },
+        {
+            "datetime": "2024-10-09T10:14:00+07:00",
+            "localDatetime": "2024-10-09T10:14:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:15:00+07:00",
+            "localDatetime": "2024-10-09T10:15:00",
+            "price": 64,
+            "volume": 2000,
+            "value": 128000
+        },
+        {
+            "datetime": "2024-10-09T10:16:00+07:00",
+            "localDatetime": "2024-10-09T10:16:00",
+            "price": 64,
+            "volume": 687000,
+            "value": 43968000
+        },
+        {
+            "datetime": "2024-10-09T10:17:00+07:00",
+            "localDatetime": "2024-10-09T10:17:00",
+            "price": 64,
+            "volume": 3200,
+            "value": 204800
+        },
+        {
+            "datetime": "2024-10-09T10:18:00+07:00",
+            "localDatetime": "2024-10-09T10:18:00",
+            "price": 63.75,
+            "volume": 2200,
+            "value": 140775
+        },
+        {
+            "datetime": "2024-10-09T10:19:00+07:00",
+            "localDatetime": "2024-10-09T10:19:00",
+            "price": 64,
+            "volume": 1400,
+            "value": 89275
+        },
+        {
+            "datetime": "2024-10-09T10:20:00+07:00",
+            "localDatetime": "2024-10-09T10:20:00",
+            "price": 64,
+            "volume": 1900,
+            "value": 121525
+        },
+        {
+            "datetime": "2024-10-09T10:21:00+07:00",
+            "localDatetime": "2024-10-09T10:21:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:22:00+07:00",
+            "localDatetime": "2024-10-09T10:22:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T10:23:00+07:00",
+            "localDatetime": "2024-10-09T10:23:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T10:24:00+07:00",
+            "localDatetime": "2024-10-09T10:24:00",
+            "price": 64,
+            "volume": 3000,
+            "value": 192000
+        },
+        {
+            "datetime": "2024-10-09T10:25:00+07:00",
+            "localDatetime": "2024-10-09T10:25:00",
+            "price": 64,
+            "volume": 7000,
+            "value": 448000
+        },
+        {
+            "datetime": "2024-10-09T10:26:00+07:00",
+            "localDatetime": "2024-10-09T10:26:00",
+            "price": 63.75,
+            "volume": 39000,
+            "value": 2486300
+        },
+        {
+            "datetime": "2024-10-09T10:27:00+07:00",
+            "localDatetime": "2024-10-09T10:27:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T10:28:00+07:00",
+            "localDatetime": "2024-10-09T10:28:00",
+            "price": 63.75,
+            "volume": 2800,
+            "value": 178575
+        },
+        {
+            "datetime": "2024-10-09T10:29:00+07:00",
+            "localDatetime": "2024-10-09T10:29:00",
+            "price": 63.75,
+            "volume": 300,
+            "value": 19125
+        },
+        {
+            "datetime": "2024-10-09T10:30:00+07:00",
+            "localDatetime": "2024-10-09T10:30:00",
+            "price": 64,
+            "volume": 1385500,
+            "value": 88671750
+        },
+        {
+            "datetime": "2024-10-09T10:31:00+07:00",
+            "localDatetime": "2024-10-09T10:31:00",
+            "price": 64,
+            "volume": 6700,
+            "value": 428800
+        },
+        {
+            "datetime": "2024-10-09T10:32:00+07:00",
+            "localDatetime": "2024-10-09T10:32:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:33:00+07:00",
+            "localDatetime": "2024-10-09T10:33:00",
+            "price": 64,
+            "volume": 300,
+            "value": 19200
+        },
+        {
+            "datetime": "2024-10-09T10:34:00+07:00",
+            "localDatetime": "2024-10-09T10:34:00",
+            "price": 64,
+            "volume": 300,
+            "value": 19200
+        },
+        {
+            "datetime": "2024-10-09T10:35:00+07:00",
+            "localDatetime": "2024-10-09T10:35:00",
+            "price": 64,
+            "volume": 1200,
+            "value": 76800
+        },
+        {
+            "datetime": "2024-10-09T10:36:00+07:00",
+            "localDatetime": "2024-10-09T10:36:00",
+            "price": 64,
+            "volume": 2400,
+            "value": 153675
+        },
+        {
+            "datetime": "2024-10-09T10:37:00+07:00",
+            "localDatetime": "2024-10-09T10:37:00",
+            "price": 64,
+            "volume": 900,
+            "value": 57600
+        },
+        {
+            "datetime": "2024-10-09T10:38:00+07:00",
+            "localDatetime": "2024-10-09T10:38:00",
+            "price": 64,
+            "volume": 1200,
+            "value": 76800
+        },
+        {
+            "datetime": "2024-10-09T10:39:00+07:00",
+            "localDatetime": "2024-10-09T10:39:00",
+            "price": 64,
+            "volume": 1900,
+            "value": 121600
+        },
+        {
+            "datetime": "2024-10-09T10:40:00+07:00",
+            "localDatetime": "2024-10-09T10:40:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T10:41:00+07:00",
+            "localDatetime": "2024-10-09T10:41:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T10:42:00+07:00",
+            "localDatetime": "2024-10-09T10:42:00",
+            "price": 64,
+            "volume": 1200,
+            "value": 76800
+        },
+        {
+            "datetime": "2024-10-09T10:43:00+07:00",
+            "localDatetime": "2024-10-09T10:43:00",
+            "price": 64,
+            "volume": 400,
+            "value": 25600
+        },
+        {
+            "datetime": "2024-10-09T10:44:00+07:00",
+            "localDatetime": "2024-10-09T10:44:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T10:45:00+07:00",
+            "localDatetime": "2024-10-09T10:45:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:46:00+07:00",
+            "localDatetime": "2024-10-09T10:46:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:47:00+07:00",
+            "localDatetime": "2024-10-09T10:47:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T10:48:00+07:00",
+            "localDatetime": "2024-10-09T10:48:00",
+            "price": 64,
+            "volume": 14000,
+            "value": 896000
+        },
+        {
+            "datetime": "2024-10-09T10:49:00+07:00",
+            "localDatetime": "2024-10-09T10:49:00",
+            "price": 64,
+            "volume": 93500,
+            "value": 5984150
+        },
+        {
+            "datetime": "2024-10-09T10:50:00+07:00",
+            "localDatetime": "2024-10-09T10:50:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:51:00+07:00",
+            "localDatetime": "2024-10-09T10:51:00",
+            "price": 64,
+            "volume": 2800,
+            "value": 179200
+        },
+        {
+            "datetime": "2024-10-09T10:52:00+07:00",
+            "localDatetime": "2024-10-09T10:52:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:53:00+07:00",
+            "localDatetime": "2024-10-09T10:53:00",
+            "price": 64.25,
+            "volume": 100,
+            "value": 6425
+        },
+        {
+            "datetime": "2024-10-09T10:54:00+07:00",
+            "localDatetime": "2024-10-09T10:54:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T10:55:00+07:00",
+            "localDatetime": "2024-10-09T10:55:00",
+            "price": 64,
+            "volume": 50200,
+            "value": 3212800
+        },
+        {
+            "datetime": "2024-10-09T10:56:00+07:00",
+            "localDatetime": "2024-10-09T10:56:00",
+            "price": 64,
+            "volume": 11600,
+            "value": 742400
+        },
+        {
+            "datetime": "2024-10-09T10:57:00+07:00",
+            "localDatetime": "2024-10-09T10:57:00",
+            "price": 64,
+            "volume": 900,
+            "value": 57600
+        },
+        {
+            "datetime": "2024-10-09T10:58:00+07:00",
+            "localDatetime": "2024-10-09T10:58:00",
+            "price": 64.25,
+            "volume": 200,
+            "value": 12850
+        },
+        {
+            "datetime": "2024-10-09T10:59:00+07:00",
+            "localDatetime": "2024-10-09T10:59:00",
+            "price": 64.25,
+            "volume": 500,
+            "value": 32125
+        },
+        {
+            "datetime": "2024-10-09T11:00:00+07:00",
+            "localDatetime": "2024-10-09T11:00:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12825
+        },
+        {
+            "datetime": "2024-10-09T11:01:00+07:00",
+            "localDatetime": "2024-10-09T11:01:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:02:00+07:00",
+            "localDatetime": "2024-10-09T11:02:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:03:00+07:00",
+            "localDatetime": "2024-10-09T11:03:00",
+            "price": 64,
+            "volume": 1100,
+            "value": 70400
+        },
+        {
+            "datetime": "2024-10-09T11:04:00+07:00",
+            "localDatetime": "2024-10-09T11:04:00",
+            "price": 64.25,
+            "volume": 1000,
+            "value": 64250
+        },
+        {
+            "datetime": "2024-10-09T11:05:00+07:00",
+            "localDatetime": "2024-10-09T11:05:00",
+            "price": 64.25,
+            "volume": 100,
+            "value": 6425
+        },
+        {
+            "datetime": "2024-10-09T11:06:00+07:00",
+            "localDatetime": "2024-10-09T11:06:00",
+            "price": 64,
+            "volume": 1200,
+            "value": 76800
+        },
+        {
+            "datetime": "2024-10-09T11:07:00+07:00",
+            "localDatetime": "2024-10-09T11:07:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:08:00+07:00",
+            "localDatetime": "2024-10-09T11:08:00",
+            "price": 64,
+            "volume": 300,
+            "value": 19200
+        },
+        {
+            "datetime": "2024-10-09T11:09:00+07:00",
+            "localDatetime": "2024-10-09T11:09:00",
+            "price": 64,
+            "volume": 2500,
+            "value": 160000
+        },
+        {
+            "datetime": "2024-10-09T11:10:00+07:00",
+            "localDatetime": "2024-10-09T11:10:00",
+            "price": 64,
+            "volume": 5500,
+            "value": 352000
+        },
+        {
+            "datetime": "2024-10-09T11:11:00+07:00",
+            "localDatetime": "2024-10-09T11:11:00",
+            "price": 64,
+            "volume": 66000,
+            "value": 4224000
+        },
+        {
+            "datetime": "2024-10-09T11:12:00+07:00",
+            "localDatetime": "2024-10-09T11:12:00",
+            "price": 64,
+            "volume": 14400,
+            "value": 921975
+        },
+        {
+            "datetime": "2024-10-09T11:13:00+07:00",
+            "localDatetime": "2024-10-09T11:13:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:14:00+07:00",
+            "localDatetime": "2024-10-09T11:14:00",
+            "price": 64,
+            "volume": 2400,
+            "value": 153600
+        },
+        {
+            "datetime": "2024-10-09T11:15:00+07:00",
+            "localDatetime": "2024-10-09T11:15:00",
+            "price": 64,
+            "volume": 100000,
+            "value": 6400000
+        },
+        {
+            "datetime": "2024-10-09T11:16:00+07:00",
+            "localDatetime": "2024-10-09T11:16:00",
+            "price": 64,
+            "volume": 15900,
+            "value": 1017600
+        },
+        {
+            "datetime": "2024-10-09T11:17:00+07:00",
+            "localDatetime": "2024-10-09T11:17:00",
+            "price": 64,
+            "volume": 2600,
+            "value": 166400
+        },
+        {
+            "datetime": "2024-10-09T11:18:00+07:00",
+            "localDatetime": "2024-10-09T11:18:00",
+            "price": 64,
+            "volume": 981600,
+            "value": 62822400
+        },
+        {
+            "datetime": "2024-10-09T11:19:00+07:00",
+            "localDatetime": "2024-10-09T11:19:00",
+            "price": 64,
+            "volume": 15600,
+            "value": 998400
+        },
+        {
+            "datetime": "2024-10-09T11:20:00+07:00",
+            "localDatetime": "2024-10-09T11:20:00",
+            "price": 64,
+            "volume": 700,
+            "value": 44800
+        },
+        {
+            "datetime": "2024-10-09T11:21:00+07:00",
+            "localDatetime": "2024-10-09T11:21:00",
+            "price": 64,
+            "volume": 14000,
+            "value": 896000
+        },
+        {
+            "datetime": "2024-10-09T11:22:00+07:00",
+            "localDatetime": "2024-10-09T11:22:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T11:23:00+07:00",
+            "localDatetime": "2024-10-09T11:23:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:24:00+07:00",
+            "localDatetime": "2024-10-09T11:24:00",
+            "price": 64,
+            "volume": 800,
+            "value": 51200
+        },
+        {
+            "datetime": "2024-10-09T11:25:00+07:00",
+            "localDatetime": "2024-10-09T11:25:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:26:00+07:00",
+            "localDatetime": "2024-10-09T11:26:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T11:27:00+07:00",
+            "localDatetime": "2024-10-09T11:27:00",
+            "price": 64,
+            "volume": 500,
+            "value": 32000
+        },
+        {
+            "datetime": "2024-10-09T11:28:00+07:00",
+            "localDatetime": "2024-10-09T11:28:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T11:29:00+07:00",
+            "localDatetime": "2024-10-09T11:29:00",
+            "price": 64,
+            "volume": 600,
+            "value": 38400
+        },
+        {
+            "datetime": "2024-10-09T11:30:00+07:00",
+            "localDatetime": "2024-10-09T11:30:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T11:31:00+07:00",
+            "localDatetime": "2024-10-09T11:31:00",
+            "price": 64,
+            "volume": 5000,
+            "value": 320000
+        },
+        {
+            "datetime": "2024-10-09T11:32:00+07:00",
+            "localDatetime": "2024-10-09T11:32:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134400
+        },
+        {
+            "datetime": "2024-10-09T11:33:00+07:00",
+            "localDatetime": "2024-10-09T11:33:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:34:00+07:00",
+            "localDatetime": "2024-10-09T11:34:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:35:00+07:00",
+            "localDatetime": "2024-10-09T11:35:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134400
+        },
+        {
+            "datetime": "2024-10-09T11:36:00+07:00",
+            "localDatetime": "2024-10-09T11:36:00",
+            "price": 64,
+            "volume": 5100,
+            "value": 326400
+        },
+        {
+            "datetime": "2024-10-09T11:37:00+07:00",
+            "localDatetime": "2024-10-09T11:37:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:38:00+07:00",
+            "localDatetime": "2024-10-09T11:38:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T11:39:00+07:00",
+            "localDatetime": "2024-10-09T11:39:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T11:40:00+07:00",
+            "localDatetime": "2024-10-09T11:40:00",
+            "price": 64,
+            "volume": 5100,
+            "value": 326400
+        },
+        {
+            "datetime": "2024-10-09T11:41:00+07:00",
+            "localDatetime": "2024-10-09T11:41:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:42:00+07:00",
+            "localDatetime": "2024-10-09T11:42:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134400
+        },
+        {
+            "datetime": "2024-10-09T11:43:00+07:00",
+            "localDatetime": "2024-10-09T11:43:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:44:00+07:00",
+            "localDatetime": "2024-10-09T11:44:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:45:00+07:00",
+            "localDatetime": "2024-10-09T11:45:00",
+            "price": 64,
+            "volume": 2900,
+            "value": 186300
+        },
+        {
+            "datetime": "2024-10-09T11:46:00+07:00",
+            "localDatetime": "2024-10-09T11:46:00",
+            "price": 64,
+            "volume": 1200,
+            "value": 76800
+        },
+        {
+            "datetime": "2024-10-09T11:47:00+07:00",
+            "localDatetime": "2024-10-09T11:47:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:48:00+07:00",
+            "localDatetime": "2024-10-09T11:48:00",
+            "price": 64,
+            "volume": 900,
+            "value": 57600
+        },
+        {
+            "datetime": "2024-10-09T11:49:00+07:00",
+            "localDatetime": "2024-10-09T11:49:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:50:00+07:00",
+            "localDatetime": "2024-10-09T11:50:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:51:00+07:00",
+            "localDatetime": "2024-10-09T11:51:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:52:00+07:00",
+            "localDatetime": "2024-10-09T11:52:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:53:00+07:00",
+            "localDatetime": "2024-10-09T11:53:00",
+            "price": 64,
+            "volume": 3100,
+            "value": 198400
+        },
+        {
+            "datetime": "2024-10-09T11:54:00+07:00",
+            "localDatetime": "2024-10-09T11:54:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:55:00+07:00",
+            "localDatetime": "2024-10-09T11:55:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T11:56:00+07:00",
+            "localDatetime": "2024-10-09T11:56:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:57:00+07:00",
+            "localDatetime": "2024-10-09T11:57:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T11:58:00+07:00",
+            "localDatetime": "2024-10-09T11:58:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T11:59:00+07:00",
+            "localDatetime": "2024-10-09T11:59:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T12:00:00+07:00",
+            "localDatetime": "2024-10-09T12:00:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:01:00+07:00",
+            "localDatetime": "2024-10-09T12:01:00",
+            "price": 64,
+            "volume": 800,
+            "value": 51200
+        },
+        {
+            "datetime": "2024-10-09T12:02:00+07:00",
+            "localDatetime": "2024-10-09T12:02:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64100
+        },
+        {
+            "datetime": "2024-10-09T12:03:00+07:00",
+            "localDatetime": "2024-10-09T12:03:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:04:00+07:00",
+            "localDatetime": "2024-10-09T12:04:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:05:00+07:00",
+            "localDatetime": "2024-10-09T12:05:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134900
+        },
+        {
+            "datetime": "2024-10-09T12:06:00+07:00",
+            "localDatetime": "2024-10-09T12:06:00",
+            "price": 64.25,
+            "volume": 400,
+            "value": 25625
+        },
+        {
+            "datetime": "2024-10-09T12:07:00+07:00",
+            "localDatetime": "2024-10-09T12:07:00",
+            "price": 64.25,
+            "volume": 100,
+            "value": 6425
+        },
+        {
+            "datetime": "2024-10-09T12:08:00+07:00",
+            "localDatetime": "2024-10-09T12:08:00",
+            "price": 64.25,
+            "volume": 2500,
+            "value": 160625
+        },
+        {
+            "datetime": "2024-10-09T12:09:00+07:00",
+            "localDatetime": "2024-10-09T12:09:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:10:00+07:00",
+            "localDatetime": "2024-10-09T12:10:00",
+            "price": 64,
+            "volume": 500,
+            "value": 32025
+        },
+        {
+            "datetime": "2024-10-09T12:11:00+07:00",
+            "localDatetime": "2024-10-09T12:11:00",
+            "price": 64.25,
+            "volume": 300,
+            "value": 19225
+        },
+        {
+            "datetime": "2024-10-09T12:12:00+07:00",
+            "localDatetime": "2024-10-09T12:12:00",
+            "price": 64,
+            "volume": 900,
+            "value": 57600
+        },
+        {
+            "datetime": "2024-10-09T12:13:00+07:00",
+            "localDatetime": "2024-10-09T12:13:00",
+            "price": 64,
+            "volume": 1700,
+            "value": 108800
+        },
+        {
+            "datetime": "2024-10-09T12:14:00+07:00",
+            "localDatetime": "2024-10-09T12:14:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:15:00+07:00",
+            "localDatetime": "2024-10-09T12:15:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:16:00+07:00",
+            "localDatetime": "2024-10-09T12:16:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:17:00+07:00",
+            "localDatetime": "2024-10-09T12:17:00",
+            "price": 64.25,
+            "volume": 400,
+            "value": 25700
+        },
+        {
+            "datetime": "2024-10-09T12:18:00+07:00",
+            "localDatetime": "2024-10-09T12:18:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:19:00+07:00",
+            "localDatetime": "2024-10-09T12:19:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:20:00+07:00",
+            "localDatetime": "2024-10-09T12:20:00",
+            "price": 64.25,
+            "volume": 3000,
+            "value": 192750
+        },
+        {
+            "datetime": "2024-10-09T12:21:00+07:00",
+            "localDatetime": "2024-10-09T12:21:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T12:22:00+07:00",
+            "localDatetime": "2024-10-09T12:22:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:23:00+07:00",
+            "localDatetime": "2024-10-09T12:23:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:24:00+07:00",
+            "localDatetime": "2024-10-09T12:24:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:25:00+07:00",
+            "localDatetime": "2024-10-09T12:25:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:26:00+07:00",
+            "localDatetime": "2024-10-09T12:26:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:27:00+07:00",
+            "localDatetime": "2024-10-09T12:27:00",
+            "price": 64,
+            "volume": 500,
+            "value": 32000
+        },
+        {
+            "datetime": "2024-10-09T12:28:00+07:00",
+            "localDatetime": "2024-10-09T12:28:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:29:00+07:00",
+            "localDatetime": "2024-10-09T12:29:00",
+            "price": 64,
+            "volume": 1800,
+            "value": 115200
+        },
+        {
+            "datetime": "2024-10-09T12:30:00+07:00",
+            "localDatetime": "2024-10-09T12:30:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:35:00+07:00",
+            "localDatetime": "2024-10-09T12:35:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:40:00+07:00",
+            "localDatetime": "2024-10-09T12:40:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:45:00+07:00",
+            "localDatetime": "2024-10-09T12:45:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:50:00+07:00",
+            "localDatetime": "2024-10-09T12:50:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T12:55:00+07:00",
+            "localDatetime": "2024-10-09T12:55:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:00:00+07:00",
+            "localDatetime": "2024-10-09T13:00:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:05:00+07:00",
+            "localDatetime": "2024-10-09T13:05:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:10:00+07:00",
+            "localDatetime": "2024-10-09T13:10:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:15:00+07:00",
+            "localDatetime": "2024-10-09T13:15:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:20:00+07:00",
+            "localDatetime": "2024-10-09T13:20:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:25:00+07:00",
+            "localDatetime": "2024-10-09T13:25:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:30:00+07:00",
+            "localDatetime": "2024-10-09T13:30:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:35:00+07:00",
+            "localDatetime": "2024-10-09T13:35:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:40:00+07:00",
+            "localDatetime": "2024-10-09T13:40:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:45:00+07:00",
+            "localDatetime": "2024-10-09T13:45:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:46:00+07:00",
+            "localDatetime": "2024-10-09T13:46:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:47:00+07:00",
+            "localDatetime": "2024-10-09T13:47:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:48:00+07:00",
+            "localDatetime": "2024-10-09T13:48:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:49:00+07:00",
+            "localDatetime": "2024-10-09T13:49:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:50:00+07:00",
+            "localDatetime": "2024-10-09T13:50:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:51:00+07:00",
+            "localDatetime": "2024-10-09T13:51:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:52:00+07:00",
+            "localDatetime": "2024-10-09T13:52:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:53:00+07:00",
+            "localDatetime": "2024-10-09T13:53:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:54:00+07:00",
+            "localDatetime": "2024-10-09T13:54:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T13:55:00+07:00",
+            "localDatetime": "2024-10-09T13:55:00",
+            "price": 64,
+            "volume": 62200,
+            "value": 3980800
+        },
+        {
+            "datetime": "2024-10-09T13:56:00+07:00",
+            "localDatetime": "2024-10-09T13:56:00",
+            "price": 64,
+            "volume": 281300,
+            "value": 18003200
+        },
+        {
+            "datetime": "2024-10-09T13:57:00+07:00",
+            "localDatetime": "2024-10-09T13:57:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T13:58:00+07:00",
+            "localDatetime": "2024-10-09T13:58:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134400
+        },
+        {
+            "datetime": "2024-10-09T13:59:00+07:00",
+            "localDatetime": "2024-10-09T13:59:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:00:00+07:00",
+            "localDatetime": "2024-10-09T14:00:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134900
+        },
+        {
+            "datetime": "2024-10-09T14:01:00+07:00",
+            "localDatetime": "2024-10-09T14:01:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:02:00+07:00",
+            "localDatetime": "2024-10-09T14:02:00",
+            "price": 64.25,
+            "volume": 2300,
+            "value": 147750
+        },
+        {
+            "datetime": "2024-10-09T14:03:00+07:00",
+            "localDatetime": "2024-10-09T14:03:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:04:00+07:00",
+            "localDatetime": "2024-10-09T14:04:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:05:00+07:00",
+            "localDatetime": "2024-10-09T14:05:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T14:06:00+07:00",
+            "localDatetime": "2024-10-09T14:06:00",
+            "price": 64.25,
+            "volume": 2000,
+            "value": 128500
+        },
+        {
+            "datetime": "2024-10-09T14:07:00+07:00",
+            "localDatetime": "2024-10-09T14:07:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:08:00+07:00",
+            "localDatetime": "2024-10-09T14:08:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:09:00+07:00",
+            "localDatetime": "2024-10-09T14:09:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:10:00+07:00",
+            "localDatetime": "2024-10-09T14:10:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:11:00+07:00",
+            "localDatetime": "2024-10-09T14:11:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:12:00+07:00",
+            "localDatetime": "2024-10-09T14:12:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:13:00+07:00",
+            "localDatetime": "2024-10-09T14:13:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:14:00+07:00",
+            "localDatetime": "2024-10-09T14:14:00",
+            "price": 64.25,
+            "volume": 2000,
+            "value": 128500
+        },
+        {
+            "datetime": "2024-10-09T14:15:00+07:00",
+            "localDatetime": "2024-10-09T14:15:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:16:00+07:00",
+            "localDatetime": "2024-10-09T14:16:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:17:00+07:00",
+            "localDatetime": "2024-10-09T14:17:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:18:00+07:00",
+            "localDatetime": "2024-10-09T14:18:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:19:00+07:00",
+            "localDatetime": "2024-10-09T14:19:00",
+            "price": 64.25,
+            "volume": 300,
+            "value": 19275
+        },
+        {
+            "datetime": "2024-10-09T14:20:00+07:00",
+            "localDatetime": "2024-10-09T14:20:00",
+            "price": 64.25,
+            "volume": 2000,
+            "value": 128500
+        },
+        {
+            "datetime": "2024-10-09T14:21:00+07:00",
+            "localDatetime": "2024-10-09T14:21:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:22:00+07:00",
+            "localDatetime": "2024-10-09T14:22:00",
+            "price": 64,
+            "volume": 7100,
+            "value": 454925
+        },
+        {
+            "datetime": "2024-10-09T14:23:00+07:00",
+            "localDatetime": "2024-10-09T14:23:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:24:00+07:00",
+            "localDatetime": "2024-10-09T14:24:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:25:00+07:00",
+            "localDatetime": "2024-10-09T14:25:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:26:00+07:00",
+            "localDatetime": "2024-10-09T14:26:00",
+            "price": 64.25,
+            "volume": 2200,
+            "value": 141350
+        },
+        {
+            "datetime": "2024-10-09T14:27:00+07:00",
+            "localDatetime": "2024-10-09T14:27:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:28:00+07:00",
+            "localDatetime": "2024-10-09T14:28:00",
+            "price": 64,
+            "volume": 3500,
+            "value": 224500
+        },
+        {
+            "datetime": "2024-10-09T14:29:00+07:00",
+            "localDatetime": "2024-10-09T14:29:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:30:00+07:00",
+            "localDatetime": "2024-10-09T14:30:00",
+            "price": 64.25,
+            "volume": 3600,
+            "value": 231300
+        },
+        {
+            "datetime": "2024-10-09T14:31:00+07:00",
+            "localDatetime": "2024-10-09T14:31:00",
+            "price": 64.25,
+            "volume": 500,
+            "value": 32125
+        },
+        {
+            "datetime": "2024-10-09T14:32:00+07:00",
+            "localDatetime": "2024-10-09T14:32:00",
+            "price": 64,
+            "volume": 3000,
+            "value": 192525
+        },
+        {
+            "datetime": "2024-10-09T14:33:00+07:00",
+            "localDatetime": "2024-10-09T14:33:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:34:00+07:00",
+            "localDatetime": "2024-10-09T14:34:00",
+            "price": 64.25,
+            "volume": 2000,
+            "value": 128500
+        },
+        {
+            "datetime": "2024-10-09T14:35:00+07:00",
+            "localDatetime": "2024-10-09T14:35:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:36:00+07:00",
+            "localDatetime": "2024-10-09T14:36:00",
+            "price": 64,
+            "volume": 3000,
+            "value": 192525
+        },
+        {
+            "datetime": "2024-10-09T14:37:00+07:00",
+            "localDatetime": "2024-10-09T14:37:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:38:00+07:00",
+            "localDatetime": "2024-10-09T14:38:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:39:00+07:00",
+            "localDatetime": "2024-10-09T14:39:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:40:00+07:00",
+            "localDatetime": "2024-10-09T14:40:00",
+            "price": 64,
+            "volume": 2200,
+            "value": 141325
+        },
+        {
+            "datetime": "2024-10-09T14:41:00+07:00",
+            "localDatetime": "2024-10-09T14:41:00",
+            "price": 64,
+            "volume": 6600,
+            "value": 422400
+        },
+        {
+            "datetime": "2024-10-09T14:42:00+07:00",
+            "localDatetime": "2024-10-09T14:42:00",
+            "price": 64.25,
+            "volume": 27900,
+            "value": 1792350
+        },
+        {
+            "datetime": "2024-10-09T14:43:00+07:00",
+            "localDatetime": "2024-10-09T14:43:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:44:00+07:00",
+            "localDatetime": "2024-10-09T14:44:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:45:00+07:00",
+            "localDatetime": "2024-10-09T14:45:00",
+            "price": 64.25,
+            "volume": 200,
+            "value": 12850
+        },
+        {
+            "datetime": "2024-10-09T14:46:00+07:00",
+            "localDatetime": "2024-10-09T14:46:00",
+            "price": 64,
+            "volume": 8000,
+            "value": 513250
+        },
+        {
+            "datetime": "2024-10-09T14:47:00+07:00",
+            "localDatetime": "2024-10-09T14:47:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:48:00+07:00",
+            "localDatetime": "2024-10-09T14:48:00",
+            "price": 64.25,
+            "volume": 2900,
+            "value": 186100
+        },
+        {
+            "datetime": "2024-10-09T14:49:00+07:00",
+            "localDatetime": "2024-10-09T14:49:00",
+            "price": 64,
+            "volume": 12200,
+            "value": 780850
+        },
+        {
+            "datetime": "2024-10-09T14:50:00+07:00",
+            "localDatetime": "2024-10-09T14:50:00",
+            "price": 64.25,
+            "volume": 3800,
+            "value": 243750
+        },
+        {
+            "datetime": "2024-10-09T14:51:00+07:00",
+            "localDatetime": "2024-10-09T14:51:00",
+            "price": 64.25,
+            "volume": 700,
+            "value": 44850
+        },
+        {
+            "datetime": "2024-10-09T14:52:00+07:00",
+            "localDatetime": "2024-10-09T14:52:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T14:53:00+07:00",
+            "localDatetime": "2024-10-09T14:53:00",
+            "price": 64.25,
+            "volume": 20000,
+            "value": 1285000
+        },
+        {
+            "datetime": "2024-10-09T14:54:00+07:00",
+            "localDatetime": "2024-10-09T14:54:00",
+            "price": 64,
+            "volume": 7000,
+            "value": 448525
+        },
+        {
+            "datetime": "2024-10-09T14:55:00+07:00",
+            "localDatetime": "2024-10-09T14:55:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T14:56:00+07:00",
+            "localDatetime": "2024-10-09T14:56:00",
+            "price": 64,
+            "volume": 2900,
+            "value": 186150
+        },
+        {
+            "datetime": "2024-10-09T14:57:00+07:00",
+            "localDatetime": "2024-10-09T14:57:00",
+            "price": 64,
+            "volume": 1100,
+            "value": 70400
+        },
+        {
+            "datetime": "2024-10-09T14:58:00+07:00",
+            "localDatetime": "2024-10-09T14:58:00",
+            "price": 64,
+            "volume": 3400,
+            "value": 218125
+        },
+        {
+            "datetime": "2024-10-09T14:59:00+07:00",
+            "localDatetime": "2024-10-09T14:59:00",
+            "price": 64,
+            "volume": 1500,
+            "value": 96100
+        },
+        {
+            "datetime": "2024-10-09T15:00:00+07:00",
+            "localDatetime": "2024-10-09T15:00:00",
+            "price": 64.25,
+            "volume": 12500,
+            "value": 803000
+        },
+        {
+            "datetime": "2024-10-09T15:01:00+07:00",
+            "localDatetime": "2024-10-09T15:01:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:02:00+07:00",
+            "localDatetime": "2024-10-09T15:02:00",
+            "price": 64,
+            "volume": 7900,
+            "value": 506150
+        },
+        {
+            "datetime": "2024-10-09T15:03:00+07:00",
+            "localDatetime": "2024-10-09T15:03:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:04:00+07:00",
+            "localDatetime": "2024-10-09T15:04:00",
+            "price": 64,
+            "volume": 3200,
+            "value": 205300
+        },
+        {
+            "datetime": "2024-10-09T15:05:00+07:00",
+            "localDatetime": "2024-10-09T15:05:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:06:00+07:00",
+            "localDatetime": "2024-10-09T15:06:00",
+            "price": 64,
+            "volume": 4900,
+            "value": 314125
+        },
+        {
+            "datetime": "2024-10-09T15:07:00+07:00",
+            "localDatetime": "2024-10-09T15:07:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:08:00+07:00",
+            "localDatetime": "2024-10-09T15:08:00",
+            "price": 64.25,
+            "volume": 5000,
+            "value": 321250
+        },
+        {
+            "datetime": "2024-10-09T15:09:00+07:00",
+            "localDatetime": "2024-10-09T15:09:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:10:00+07:00",
+            "localDatetime": "2024-10-09T15:10:00",
+            "price": 64.25,
+            "volume": 2300,
+            "value": 147700
+        },
+        {
+            "datetime": "2024-10-09T15:11:00+07:00",
+            "localDatetime": "2024-10-09T15:11:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:12:00+07:00",
+            "localDatetime": "2024-10-09T15:12:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:13:00+07:00",
+            "localDatetime": "2024-10-09T15:13:00",
+            "price": 64,
+            "volume": 1000,
+            "value": 64000
+        },
+        {
+            "datetime": "2024-10-09T15:14:00+07:00",
+            "localDatetime": "2024-10-09T15:14:00",
+            "price": 64,
+            "volume": 2200,
+            "value": 141325
+        },
+        {
+            "datetime": "2024-10-09T15:15:00+07:00",
+            "localDatetime": "2024-10-09T15:15:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:16:00+07:00",
+            "localDatetime": "2024-10-09T15:16:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:17:00+07:00",
+            "localDatetime": "2024-10-09T15:17:00",
+            "price": 64,
+            "volume": 51100,
+            "value": 3270400
+        },
+        {
+            "datetime": "2024-10-09T15:18:00+07:00",
+            "localDatetime": "2024-10-09T15:18:00",
+            "price": 64,
+            "volume": 3200,
+            "value": 205300
+        },
+        {
+            "datetime": "2024-10-09T15:19:00+07:00",
+            "localDatetime": "2024-10-09T15:19:00",
+            "price": 64.25,
+            "volume": 100,
+            "value": 6425
+        },
+        {
+            "datetime": "2024-10-09T15:20:00+07:00",
+            "localDatetime": "2024-10-09T15:20:00",
+            "price": 64,
+            "volume": 27600,
+            "value": 1766925
+        },
+        {
+            "datetime": "2024-10-09T15:21:00+07:00",
+            "localDatetime": "2024-10-09T15:21:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:22:00+07:00",
+            "localDatetime": "2024-10-09T15:22:00",
+            "price": 64,
+            "volume": 155800,
+            "value": 9971750
+        },
+        {
+            "datetime": "2024-10-09T15:23:00+07:00",
+            "localDatetime": "2024-10-09T15:23:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:24:00+07:00",
+            "localDatetime": "2024-10-09T15:24:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134900
+        },
+        {
+            "datetime": "2024-10-09T15:25:00+07:00",
+            "localDatetime": "2024-10-09T15:25:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T15:26:00+07:00",
+            "localDatetime": "2024-10-09T15:26:00",
+            "price": 64.25,
+            "volume": 54500,
+            "value": 3488625
+        },
+        {
+            "datetime": "2024-10-09T15:27:00+07:00",
+            "localDatetime": "2024-10-09T15:27:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T15:28:00+07:00",
+            "localDatetime": "2024-10-09T15:28:00",
+            "price": 64,
+            "volume": 2400,
+            "value": 154125
+        },
+        {
+            "datetime": "2024-10-09T15:29:00+07:00",
+            "localDatetime": "2024-10-09T15:29:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:30:00+07:00",
+            "localDatetime": "2024-10-09T15:30:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:31:00+07:00",
+            "localDatetime": "2024-10-09T15:31:00",
+            "price": 64,
+            "volume": 800,
+            "value": 51225
+        },
+        {
+            "datetime": "2024-10-09T15:32:00+07:00",
+            "localDatetime": "2024-10-09T15:32:00",
+            "price": 64.25,
+            "volume": 5200,
+            "value": 334075
+        },
+        {
+            "datetime": "2024-10-09T15:33:00+07:00",
+            "localDatetime": "2024-10-09T15:33:00",
+            "price": 64,
+            "volume": 3100,
+            "value": 198400
+        },
+        {
+            "datetime": "2024-10-09T15:34:00+07:00",
+            "localDatetime": "2024-10-09T15:34:00",
+            "price": 64,
+            "volume": 53200,
+            "value": 3405325
+        },
+        {
+            "datetime": "2024-10-09T15:35:00+07:00",
+            "localDatetime": "2024-10-09T15:35:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:36:00+07:00",
+            "localDatetime": "2024-10-09T15:36:00",
+            "price": 64.25,
+            "volume": 27000,
+            "value": 1728525
+        },
+        {
+            "datetime": "2024-10-09T15:37:00+07:00",
+            "localDatetime": "2024-10-09T15:37:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:38:00+07:00",
+            "localDatetime": "2024-10-09T15:38:00",
+            "price": 64,
+            "volume": 64700,
+            "value": 4141300
+        },
+        {
+            "datetime": "2024-10-09T15:39:00+07:00",
+            "localDatetime": "2024-10-09T15:39:00",
+            "price": 64,
+            "volume": 300,
+            "value": 19200
+        },
+        {
+            "datetime": "2024-10-09T15:40:00+07:00",
+            "localDatetime": "2024-10-09T15:40:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:41:00+07:00",
+            "localDatetime": "2024-10-09T15:41:00",
+            "price": 64,
+            "volume": 42800,
+            "value": 2739200
+        },
+        {
+            "datetime": "2024-10-09T15:42:00+07:00",
+            "localDatetime": "2024-10-09T15:42:00",
+            "price": 64,
+            "volume": 3000,
+            "value": 192525
+        },
+        {
+            "datetime": "2024-10-09T15:43:00+07:00",
+            "localDatetime": "2024-10-09T15:43:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T15:44:00+07:00",
+            "localDatetime": "2024-10-09T15:44:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:45:00+07:00",
+            "localDatetime": "2024-10-09T15:45:00",
+            "price": 64,
+            "volume": 5000,
+            "value": 320000
+        },
+        {
+            "datetime": "2024-10-09T15:46:00+07:00",
+            "localDatetime": "2024-10-09T15:46:00",
+            "price": 64,
+            "volume": 10100,
+            "value": 646900
+        },
+        {
+            "datetime": "2024-10-09T15:47:00+07:00",
+            "localDatetime": "2024-10-09T15:47:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:48:00+07:00",
+            "localDatetime": "2024-10-09T15:48:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T15:49:00+07:00",
+            "localDatetime": "2024-10-09T15:49:00",
+            "price": 64.25,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:50:00+07:00",
+            "localDatetime": "2024-10-09T15:50:00",
+            "price": 64,
+            "volume": 2600,
+            "value": 166925
+        },
+        {
+            "datetime": "2024-10-09T15:51:00+07:00",
+            "localDatetime": "2024-10-09T15:51:00",
+            "price": 64,
+            "volume": 400,
+            "value": 25600
+        },
+        {
+            "datetime": "2024-10-09T15:52:00+07:00",
+            "localDatetime": "2024-10-09T15:52:00",
+            "price": 64,
+            "volume": 5800,
+            "value": 371725
+        },
+        {
+            "datetime": "2024-10-09T15:53:00+07:00",
+            "localDatetime": "2024-10-09T15:53:00",
+            "price": 64,
+            "volume": 1300,
+            "value": 83300
+        },
+        {
+            "datetime": "2024-10-09T15:54:00+07:00",
+            "localDatetime": "2024-10-09T15:54:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134900
+        },
+        {
+            "datetime": "2024-10-09T15:55:00+07:00",
+            "localDatetime": "2024-10-09T15:55:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T15:56:00+07:00",
+            "localDatetime": "2024-10-09T15:56:00",
+            "price": 64.25,
+            "volume": 4900,
+            "value": 314825
+        },
+        {
+            "datetime": "2024-10-09T15:57:00+07:00",
+            "localDatetime": "2024-10-09T15:57:00",
+            "price": 64,
+            "volume": 1100,
+            "value": 70400
+        },
+        {
+            "datetime": "2024-10-09T15:58:00+07:00",
+            "localDatetime": "2024-10-09T15:58:00",
+            "price": 64,
+            "volume": 58000,
+            "value": 3713525
+        },
+        {
+            "datetime": "2024-10-09T15:59:00+07:00",
+            "localDatetime": "2024-10-09T15:59:00",
+            "price": 64,
+            "volume": 400,
+            "value": 25600
+        },
+        {
+            "datetime": "2024-10-09T16:00:00+07:00",
+            "localDatetime": "2024-10-09T16:00:00",
+            "price": 64.25,
+            "volume": 2300,
+            "value": 147750
+        },
+        {
+            "datetime": "2024-10-09T16:01:00+07:00",
+            "localDatetime": "2024-10-09T16:01:00",
+            "price": 64,
+            "volume": 195000,
+            "value": 12480000
+        },
+        {
+            "datetime": "2024-10-09T16:02:00+07:00",
+            "localDatetime": "2024-10-09T16:02:00",
+            "price": 64,
+            "volume": 54100,
+            "value": 3462925
+        },
+        {
+            "datetime": "2024-10-09T16:03:00+07:00",
+            "localDatetime": "2024-10-09T16:03:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:04:00+07:00",
+            "localDatetime": "2024-10-09T16:04:00",
+            "price": 64,
+            "volume": 3400,
+            "value": 218125
+        },
+        {
+            "datetime": "2024-10-09T16:05:00+07:00",
+            "localDatetime": "2024-10-09T16:05:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:06:00+07:00",
+            "localDatetime": "2024-10-09T16:06:00",
+            "price": 64,
+            "volume": 2200,
+            "value": 141325
+        },
+        {
+            "datetime": "2024-10-09T16:07:00+07:00",
+            "localDatetime": "2024-10-09T16:07:00",
+            "price": 64,
+            "volume": 1900,
+            "value": 121725
+        },
+        {
+            "datetime": "2024-10-09T16:08:00+07:00",
+            "localDatetime": "2024-10-09T16:08:00",
+            "price": 64,
+            "volume": 4100,
+            "value": 262900
+        },
+        {
+            "datetime": "2024-10-09T16:09:00+07:00",
+            "localDatetime": "2024-10-09T16:09:00",
+            "price": 64,
+            "volume": 1500,
+            "value": 96100
+        },
+        {
+            "datetime": "2024-10-09T16:10:00+07:00",
+            "localDatetime": "2024-10-09T16:10:00",
+            "price": 64.25,
+            "volume": 4200,
+            "value": 269850
+        },
+        {
+            "datetime": "2024-10-09T16:11:00+07:00",
+            "localDatetime": "2024-10-09T16:11:00",
+            "price": 64,
+            "volume": 2100,
+            "value": 134400
+        },
+        {
+            "datetime": "2024-10-09T16:12:00+07:00",
+            "localDatetime": "2024-10-09T16:12:00",
+            "price": 64,
+            "volume": 3200,
+            "value": 205325
+        },
+        {
+            "datetime": "2024-10-09T16:13:00+07:00",
+            "localDatetime": "2024-10-09T16:13:00",
+            "price": 64,
+            "volume": 100400,
+            "value": 6425600
+        },
+        {
+            "datetime": "2024-10-09T16:14:00+07:00",
+            "localDatetime": "2024-10-09T16:14:00",
+            "price": 64.25,
+            "volume": 118500,
+            "value": 7587000
+        },
+        {
+            "datetime": "2024-10-09T16:15:00+07:00",
+            "localDatetime": "2024-10-09T16:15:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T16:16:00+07:00",
+            "localDatetime": "2024-10-09T16:16:00",
+            "price": 64.25,
+            "volume": 2100,
+            "value": 134925
+        },
+        {
+            "datetime": "2024-10-09T16:17:00+07:00",
+            "localDatetime": "2024-10-09T16:17:00",
+            "price": 64,
+            "volume": 100,
+            "value": 6400
+        },
+        {
+            "datetime": "2024-10-09T16:18:00+07:00",
+            "localDatetime": "2024-10-09T16:18:00",
+            "price": 64,
+            "volume": 6400,
+            "value": 410125
+        },
+        {
+            "datetime": "2024-10-09T16:19:00+07:00",
+            "localDatetime": "2024-10-09T16:19:00",
+            "price": 64,
+            "volume": 600,
+            "value": 38400
+        },
+        {
+            "datetime": "2024-10-09T16:20:00+07:00",
+            "localDatetime": "2024-10-09T16:20:00",
+            "price": 64,
+            "volume": 694400,
+            "value": 44442350
+        },
+        {
+            "datetime": "2024-10-09T16:21:00+07:00",
+            "localDatetime": "2024-10-09T16:21:00",
+            "price": 64,
+            "volume": 214400,
+            "value": 13721600
+        },
+        {
+            "datetime": "2024-10-09T16:22:00+07:00",
+            "localDatetime": "2024-10-09T16:22:00",
+            "price": 64,
+            "volume": 14100,
+            "value": 905900
+        },
+        {
+            "datetime": "2024-10-09T16:23:00+07:00",
+            "localDatetime": "2024-10-09T16:23:00",
+            "price": 64,
+            "volume": 800,
+            "value": 51200
+        },
+        {
+            "datetime": "2024-10-09T16:24:00+07:00",
+            "localDatetime": "2024-10-09T16:24:00",
+            "price": 64,
+            "volume": 2700,
+            "value": 173325
+        },
+        {
+            "datetime": "2024-10-09T16:25:00+07:00",
+            "localDatetime": "2024-10-09T16:25:00",
+            "price": 64,
+            "volume": 201700,
+            "value": 12908975
+        },
+        {
+            "datetime": "2024-10-09T16:26:00+07:00",
+            "localDatetime": "2024-10-09T16:26:00",
+            "price": 64,
+            "volume": 25000,
+            "value": 1600525
+        },
+        {
+            "datetime": "2024-10-09T16:27:00+07:00",
+            "localDatetime": "2024-10-09T16:27:00",
+            "price": 64,
+            "volume": 200,
+            "value": 12800
+        },
+        {
+            "datetime": "2024-10-09T16:28:00+07:00",
+            "localDatetime": "2024-10-09T16:28:00",
+            "price": 64.25,
+            "volume": 1700,
+            "value": 108900
+        },
+        {
+            "datetime": "2024-10-09T16:29:00+07:00",
+            "localDatetime": "2024-10-09T16:29:00",
+            "price": 64,
+            "volume": 176500,
+            "value": 11296050
+        },
+        {
+            "datetime": "2024-10-09T16:30:00+07:00",
+            "localDatetime": "2024-10-09T16:30:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:31:00+07:00",
+            "localDatetime": "2024-10-09T16:31:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:32:00+07:00",
+            "localDatetime": "2024-10-09T16:32:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:33:00+07:00",
+            "localDatetime": "2024-10-09T16:33:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:34:00+07:00",
+            "localDatetime": "2024-10-09T16:34:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:35:00+07:00",
+            "localDatetime": "2024-10-09T16:35:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:36:00+07:00",
+            "localDatetime": "2024-10-09T16:36:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:37:00+07:00",
+            "localDatetime": "2024-10-09T16:37:00",
+            "price": 64,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:38:00+07:00",
+            "localDatetime": "2024-10-09T16:38:00",
+            "price": 63.75,
+            "volume": 1831100,
+            "value": 116732625
+        },
+        {
+            "datetime": "2024-10-09T16:39:00+07:00",
+            "localDatetime": "2024-10-09T16:39:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:40:00+07:00",
+            "localDatetime": "2024-10-09T16:40:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:41:00+07:00",
+            "localDatetime": "2024-10-09T16:41:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:42:00+07:00",
+            "localDatetime": "2024-10-09T16:42:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:43:00+07:00",
+            "localDatetime": "2024-10-09T16:43:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:44:00+07:00",
+            "localDatetime": "2024-10-09T16:44:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:45:00+07:00",
+            "localDatetime": "2024-10-09T16:45:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:46:00+07:00",
+            "localDatetime": "2024-10-09T16:46:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:47:00+07:00",
+            "localDatetime": "2024-10-09T16:47:00",
+            "price": 63.75,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:48:00+07:00",
+            "localDatetime": "2024-10-09T16:48:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:49:00+07:00",
+            "localDatetime": "2024-10-09T16:49:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:50:00+07:00",
+            "localDatetime": "2024-10-09T16:50:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:51:00+07:00",
+            "localDatetime": "2024-10-09T16:51:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:52:00+07:00",
+            "localDatetime": "2024-10-09T16:52:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:53:00+07:00",
+            "localDatetime": "2024-10-09T16:53:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:54:00+07:00",
+            "localDatetime": "2024-10-09T16:54:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:55:00+07:00",
+            "localDatetime": "2024-10-09T16:55:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:56:00+07:00",
+            "localDatetime": "2024-10-09T16:56:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:57:00+07:00",
+            "localDatetime": "2024-10-09T16:57:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:58:00+07:00",
+            "localDatetime": "2024-10-09T16:58:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T16:59:00+07:00",
+            "localDatetime": "2024-10-09T16:59:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        },
+        {
+            "datetime": "2024-10-09T17:00:00+07:00",
+            "localDatetime": "2024-10-09T17:00:00",
+            "price": null,
+            "volume": null,
+            "value": null
+        }
+    ]
+}

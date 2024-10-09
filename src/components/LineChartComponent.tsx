@@ -15,25 +15,13 @@ export interface DataPoint {
   value?: number | null;
 }
 
-// Sample data
-// const data: DataPoint[] = [
-//   {
-//     datetime: "2024-04-17T00:00:00+07:00",
-//     localDatetime: "2024-04-17T00:00:00",
-//     price: 18.8,
-//     volume: 16119888,
-//     value: 305438187.4,
-//   },
-//   {
-//     datetime: "2024-04-18T00:00:00+07:00",
-//     localDatetime: "2024-04-18T00:00:00",
-//     price: 17.4,
-//     volume: 14032741,
-//     value: 243261858.3,
-//   },
-// ]
-
-export default function LineChartComponent({ data }: { data: DataPoint[] }) {
+export default function LineChartComponent({
+  data,
+  period,
+}: {
+  data: DataPoint[];
+  period: string;
+}) {
   const xAxisData = data.map((point) => new Date(point.localDatetime));
   const seriesData = data.map((point) => {
     return point.price;
@@ -47,6 +35,18 @@ export default function LineChartComponent({ data }: { data: DataPoint[] }) {
   let color =
     seriesData[0] <= seriesData[seriesData.length - 1] ? "#5DF591" : "#F95D5D";
 
+  function getFormattedDate(_period: string, date: Date) {
+    if (_period.includes("D")) {
+      return dateDisplay(date, "HH:mm");
+    } else if (_period.includes("M")) {
+      return dateDisplay(date, "D/MM");
+    } else if (_period.includes("Y")) {
+      return dateDisplay(date, "MMM YY");
+    } else {
+      return dateDisplay(date, "DD-MM-YYYY");
+    }
+  }
+
   return (
     <Box sx={{ width: "100%" }}>
       {/* <Paper sx={{ width: "100%", height: 300 }} elevation={3}> */}
@@ -58,8 +58,7 @@ export default function LineChartComponent({ data }: { data: DataPoint[] }) {
             scaleType: "time",
             id: "x-axis-date",
             valueFormatter: (date) => {
-              // return dateDisplay(date, "DD-MM-YYYY");
-              return dateDisplay(date, "HH:mm");
+              return getFormattedDate(period, date);
             },
           },
         ]}

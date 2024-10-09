@@ -4,6 +4,8 @@ import stockHighlightDataDummy from "@/db/stock-highlight-data.json";
 import stockProfileDataDummy from "@/db/stock-profile.json";
 import stockInfoDataDummy from "@/db/stock-info.json";
 import companyProfileDataDummy from "@/db/company-profile.json";
+import price1DDataDummy from "@/db/price-1d.json";
+import price1MDataDummy from "@/db/price-1m.json";
 import corporateActionsDataDummy from "@/db/corporate-actions.json";
 import sectorIndexDataDummy from "@/db/sector-info.json";
 
@@ -55,13 +57,18 @@ type path_type =
   | "price";
 export const fetchStockInfo = async (
   symbol: string = "AOT",
-  path: path_type = "profile"
+  path: path_type = "profile",
+  period?: string
 ) => {
   switch (MODE) {
     case "PROD": {
       let cache: RequestCache = "force-cache";
       if (path === "info") {
         cache = "no-cache";
+      }
+      if (period) {
+        const API_URL = `${HOST_API_URL}/set/info?symbol=${symbol}&path=${path}&period=${period}`;
+        return fetchData(API_URL, cache);
       }
       const API_URL = `${HOST_API_URL}/set/info?symbol=${symbol}&path=${path}`;
       return fetchData(API_URL, cache);
@@ -83,6 +90,14 @@ export const fetchStockInfo = async (
           break;
         case "company":
           data = companyProfileDataDummy;
+          break;
+        case "price":
+          if (period === "1M") {
+            data = price1MDataDummy;
+          }
+          else {
+            data = price1DDataDummy;
+          }
           break;
         default:
           data = null;
